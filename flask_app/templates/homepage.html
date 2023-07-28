@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>User Login</title>
+</head>
+<body>
+    <!--MAIN NAVBAR FOR LOGO AND PROFILE BUTTON-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary custom-border">
+        <div class="container d-flex justify-content-between custom-border">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="btn btn-primary">Profile</button>
+        </div>
+    </nav>
+
+    <!--MAIN CONTAINER FOR PAGE CONTENTS-->
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100 custom-border">
+        <div class="m-4 p-2 d-flex justify-content-between"> <!--inner container for all items-->
+            <div class="m-4 custom-border d-flex flex-column justify-content-center align-items-center"> <!-- container for slogan and login/registration buttons-->
+                <div class="custom-border">Main Slogan!</div>
+                <div class="m-4 custom-border">
+                    <button class="btn btn-primary mr-2">Get Started</button>
+                    <button class="btn btn-primary ml-2">Login</button>
+                </div class="m-4 custom-border">
+            </div>
+            <div class="m-4 custom-border custom-border"> <!-- container for main photo -->
+                Photo
+            </div>
+        </div>
+    </div>
+</body>
